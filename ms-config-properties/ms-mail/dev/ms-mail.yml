@@ -2,7 +2,7 @@ spring:
   kafka:
     consumer:
       group-id: ms_mail_consumer
-    bootstrap-servers: localhost:2181
+    bootstrap-servers: localhost:9092
     topic:
       userCreated: USER_CREATED_TOPIC
   h2:
