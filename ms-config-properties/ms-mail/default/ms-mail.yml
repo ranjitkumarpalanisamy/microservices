@@ -2,15 +2,9 @@ spring:
   kafka:
     consumer:
       group-id: ms_mail_consumer
-      properties:
-        spring:
-          json:
-            trusted:
-              packages: *
     bootstrap-servers: localhost:9092
     topic:
       userCreated: USER_CREATED_TOPIC
-
   h2:
     console:
       enabled: true
